@@ -3,5 +3,10 @@
   "id": "922137845084899222",
   "api": "1.0.0",
   "main": "code.js",
-  "ui": "ui.html"
+  "ui": "ui.html",
+  "menu": [
+    {"name": "Create", "command": "create"},
+    {"separator": true},
+    {"name": "Export", "command": "export"}
+  ]
 }
